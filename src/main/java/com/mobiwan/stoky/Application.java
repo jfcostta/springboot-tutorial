@@ -9,10 +9,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class StokyApplication {
-
+public class Application {
+	/** @ref  https://github.com/eugenp/tutorials/tree/master/spring-rest-http */
 	public static void main(String[] args) {
-		SpringApplication.run(StokyApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 	@Bean //for testing only, this annotation may be removed in real product

@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 @RestController
 public class HelloController {
-
+	/** @ref https://www.baeldung.com/spring-requestmapping */
 	@RequestMapping(
 		value = { "/", "/index" }, 
 		method = RequestMethod.GET)
