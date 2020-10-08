@@ -1,4 +1,4 @@
-package com.mobiwan.stoky;
+package com.mobiwan.stoky.controller;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
